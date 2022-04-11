@@ -66,6 +66,89 @@
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
               <div class="modal-close" data-modal-close></div>
+              <!-- ------FORM----- -->
+              <div class="contact-us-container">
+                <form class="form" action="">
+                  <p class="contact-us-text">
+                    Оставьте свои данные, мы вам перезвоним
+                  </p>
+                  <label class="form-label" for="contact-us-name">Имя</label>
+                  <div class="form-input">
+                    <input
+                      type="text"
+                      name="username"
+                      id="contact-us-name"
+                      class="contact-us-input"
+                    />
+                    <svg class="form-input-svg">
+                      <use
+                        href="./images/svg/form-svg/form.svg#icon-person"
+                      ></use>
+                    </svg>
+                  </div>
+                  <label class="form-label" for="contact-us-tel">Телефон</label>
+                  <div class="form-input">
+                    <input
+                      type="tel"
+                      name="tel"
+                      id="contact-us-tel"
+                      class="contact-us-input"
+                    />
+                    <svg class="form-input-svg">
+                      <use
+                        href="./images/svg/form-svg/form.svg#icon-phone"
+                      ></use>
+                    </svg>
+                  </div>
+                  <label class="form-label" for="contact-us-email">Почта</label>
+                  <div class="form-input">
+                    <input
+                      type="email"
+                      name="email"
+                      id="contact-us-email"
+                      class="contact-us-input"
+                    />
+                    <svg class="form-input-svg">
+                      <use
+                        href="./images/svg/form-svg/form.svg#icon-email"
+                      ></use>
+                    </svg>
+                  </div>
+                  <label class="form-label" for="">Комментарий</label>
+                  <textarea
+                    name="feedback"
+                    id="contact-us-feedback"
+                    rows="7"
+                    placeholder="Введите текст"
+                    class="contact-us-textarea"
+                  ></textarea>
+                  <label
+                    for="contact-us-checkbox"
+                    class="contact-us-checkbox-label"
+                  >
+                    <input
+                      type="checkbox"
+                      class="contact-us-checkbox-item"
+                      name="checkbox"
+                      id="contact-us-checkbox"
+                    />
+                    <span class="contact-us-checkbox-checkmark">
+                      <svg class="contact-us-checkbox-icon">
+                        <use
+                          href="./images/svg/form-svg/form.svg#form-svg"
+                        ></use>
+                      </svg>
+                    </span>
+                    Согласен с обработкой данных
+                    <a href="" class="contact-us-checkbox-link"
+                      >Условия договора</a
+                    >
+                  </label>
+                  <div class="contact-us-button">
+                    <button class="button-hero">Отправить</button>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
         </div>
@@ -147,7 +230,7 @@
             </li>
             <li class="business-img">
               <img
-                src="./images/веб-дизайн.jpg"
+                src="./images/web-design.jpg"
                 alt="веб дизайнер работaет с цветами"
                 width="370"
               />
