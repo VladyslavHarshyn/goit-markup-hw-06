@@ -60,7 +60,7 @@
       <section class="section-hero">
         <div class="container">
           <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="button-hero" data-modal-open>
+          <button type="button" class="button button__hero" data-modal-open>
             Заказать услугу
           </button>
           <div class="backdrop is-hidden" data-modal>
@@ -139,14 +139,14 @@
                         ></use>
                       </svg>
                     </span>
-                    Согласен с обработкой данных
-                    <a href="" class="contact-us-checkbox-link"
-                      >Условия договора</a
-                    >
+                    <p class="contact-us-checkbox-text">
+                      Соглашаюсь с рассылкой и принимаю
+                      <a href="" class="contact-us-checkbox-link"
+                        >Условия договора</a
+                      >
+                    </p>
                   </label>
-                  <div class="contact-us-button">
-                    <button class="button-hero">Отправить</button>
-                  </div>
+                  <button class="button form__button">Отправить</button>
                 </form>
               </div>
             </div>
@@ -154,8 +154,8 @@
         </div>
       </section>
       <!-- Особенности -->
-      <section class="section">
-        <div class="container features">
+      <section class="section-features">
+        <div class="container">
           <h2 class="hide-text">Особенности</h2>
           <ul class="features-list">
             <li class="features-list-item">
@@ -487,7 +487,7 @@
 
     <!-- FOOTER -->
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-container">
         <div class="footer__insider">
           <div class="footer-addresses">
             <a href="./index.html" class="logo"
@@ -568,6 +568,27 @@
                 </a>
               </li>
             </ul>
+          </div>
+          <div class="sign-up-footer">
+            <h3 class="sign-up-footer-label">Подпишитесь на рассылку</h3>
+            <form class="form-footer" action="">
+              <label for="form-footer-input"></label>
+              <input
+                class="form-footer-input"
+                type="email"
+                name="email"
+                id="form-footer-input"
+                placeholder="E-mail"
+              />
+              <button class="button button__footer" type="submit">
+                Подписаться
+                <svg class="footer-btn-svg">
+                  <use
+                    href="./images/svg/footer-sub-svg/footer-sub.svg#icon-icon-send"
+                  ></use>
+                </svg>
+              </button>
+            </form>
           </div>
         </div>
       </div>
